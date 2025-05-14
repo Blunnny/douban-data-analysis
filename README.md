@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 豆瓣年轮
 
 基于开源项目豆伴（https://github.com/doufen-org/tofu）将导出的豆瓣据数据分析和可视化来总结个人观影、读书习惯和偏好，呈现一份可视、可读、可反思的精神轨迹。
@@ -7,19 +6,19 @@
 
 ```
 vediodata/
-├── data/                               # 原始与处理后数据
+├── data/                             # 原始与处理后数据
 │   ├── raw/                            # 原始 Excel 文件
 │   └── processed/                      # 清洗、转换后的 CSV/Parquet 等
-├── notebooks/                          # Jupyter Notebooks
+├── notebooks/                        # Jupyter Notebooks
 │   ├── 00-setup.ipynb                  # 环境与依赖说明
 │   ├── 01-data-ingest.ipynb            # 数据导入
 │   ├── 02-cleaning.ipynb               # 数据清洗与预处理
 │   ├── 03-eda.ipynb                    # 探索性数据分析
 │   └── 04-visualization.ipynb          # 可视化与高级分析
-├── scripts/                            # 如需封装为脚本的工具函数
-├── figures/                            # 输出图表
-├── requirements.txt                    # Python 依赖
-└── README.md                           # 项目说明
+├── scripts/                          # 如需封装为脚本的工具函数
+├── figures/                          # 输出图表
+├── requirements.txt                  # Python 依赖
+└── README.md                         # 项目说明
 ```
 
 ## 环境设置
@@ -52,7 +51,3 @@ pip install -r requirements.txt
 ## 数据来源
 
 数据来源于豆瓣个人书影音记录导出功能。请确保数据格式符合预期，包含必要的字段信息。
-=======
-# -
-一款基于python的豆瓣数据分析工具
->>>>>>> 725ea88dc44f78e22230a5ad5157cf801a623f67
