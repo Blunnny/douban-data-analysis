@@ -52,5 +52,3 @@ pip install -r requirements.txt
    - `03-eda.ipynb`: 探索性数据分析
    - `04-advanced-analysis.ipynb`: 高级数据分析
    - `05-visualize.ipynb`: 数据可视化
-
-## 数据说明
